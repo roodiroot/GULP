@@ -1,0 +1,44 @@
+%ic {
+    font-family: "icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    
+    -webkit-font-smoothing: antialiased;
+}
+[class*="_icon-"] {
+    &:before {
+        @extend %ic;
+        display: inline-block;
+    }
+}
+
+._icon-phone:before {
+  content: "\e900";
+}
+._icon-email:before {
+  content: "\e901";
+}
+._icon-left:before {
+  content: "\e902";
+}
+._icon-refresh:before {
+  content: "\e903";
+  color: rgba(0, 199, 103, 1);
+}
+._icon-rocket:before {
+  content: "\e904";
+  color: rgba(244, 77, 77, 1);
+}
+._icon-shop:before {
+  content: "\e905";
+  color: rgba(63, 109, 228, 1);
+}
+._icon-telegram:before {
+  content: "\e906";
+}
+._icon-whatsapp:before {
+  content: "\e907";
+}

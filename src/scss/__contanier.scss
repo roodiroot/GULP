@@ -1,0 +1,8 @@
+%setcon {
+    margin: 0 auto;
+    max-width: $WidthContanier + px;
+    padding: 0 $contanierPadding + px;
+}
+[class*="__contanier"] {
+    @extend %setcon;
+}
